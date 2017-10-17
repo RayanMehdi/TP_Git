@@ -1,5 +1,6 @@
 package com.example.iem.tp_git;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -24,12 +25,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View view) {
             if(view.getId() == createButton.getId())
             {
-
+                // Create button
             }
             if(view.getId() == listButton.getId())
             {
-
-
+                // Show recherche Activity
             }
     }
 }
