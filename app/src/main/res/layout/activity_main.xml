@@ -4,15 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.iem.tp_git.MainActivity">
+    tools:context="com.example.iem.tp_git.MainActivity"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
 
-    <TextView
+    <Button
+        android:id="@+id/createButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="@string/create_note"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="130dp" />
 
+    <Button
+        android:id="@+id/listButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/show_list"
+        tools:layout_editor_absoluteY="263dp"
+        tools:layout_editor_absoluteX="148dp" />
 </android.support.constraint.ConstraintLayout>
