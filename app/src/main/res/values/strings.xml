@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">TP_Git</string>
+    <string name="create_note">Create New Note</string>
+    <string name="show_list">Show List</string>
 </resources>
